@@ -21,10 +21,10 @@ ul{
 }
 
 li{
-  background: #fff;
+  background: #606060;
   height: 40px;
   line-height: 40px;
-  color: #667;
+  color: #d5d5d5;
 }
 
 span{
@@ -73,7 +73,7 @@ input{
 }
 
 li:nth-child(2n){
-  background: #f7f7f7;
+  background: #6e6e6e;
 }
 
 li:hover{
