@@ -68,7 +68,7 @@ input{
 }
 
 .completed{
-  color: gray;
+  color: rgb(237,107,126);
   text-decoration: line-through;
 }
 
