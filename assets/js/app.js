@@ -25,11 +25,6 @@ $("input[type='text']").keypress(function(e){
   }
 });
 
-
-// $('.fa-plus').click(function(){
-//   $("input[type='text']").fadeToggle();
-// });
-
 $('h1').on('click', 'i', function(){
   if($('i').hasClass('fa-minus')){
     $(this).removeClass('fa-minus');
@@ -38,7 +33,5 @@ $('h1').on('click', 'i', function(){
     $(this).removeClass('fa-plus');
     $(this).addClass('fa-minus');
   }
-
-  //$(this).toggleClass('fa-plus');
-  $("input[type='text']").fadeToggle();
+  $("input[type='text']").slideToggle('fast');
 });
