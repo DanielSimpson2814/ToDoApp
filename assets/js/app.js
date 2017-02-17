@@ -31,6 +31,14 @@ $("input[type='text']").keypress(function(e){
 // });
 
 $('h1').on('click', 'i', function(){
-  $(this).toggleClass('fa-plus');
+  if($('i').hasClass('fa-minus')){
+    $(this).removeClass('fa-minus');
+    $(this).addClass('fa-plus');
+  } else if($('i').hasClass('fa-plus')){
+    $(this).removeClass('fa-plus');
+    $(this).addClass('fa-minus');
+  }
+
+  //$(this).toggleClass('fa-plus');
   $("input[type='text']").fadeToggle();
 });
